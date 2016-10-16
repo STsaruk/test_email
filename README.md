@@ -1,3 +1,8 @@
+#About
+
+This is template of email for subscribers.
+Using gulp-inline-css plugin to inline CSS properties into the style attribute in an html file.
+
 #Installation
 
 npm i
@@ -6,7 +11,3 @@ npm i
 
 Production file is situated in build directory
 
-#About
-
-This is template of email for subscribers.
-Using gulp-inline-css plugin to inline CSS properties into the style attribute in an html file.
