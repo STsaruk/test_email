@@ -1,6 +1,6 @@
 #Installation
 
-npm i --save-dev
+npm i
 
 #Production file
 
@@ -8,4 +8,5 @@ Production file is situated in build directory
 
 #About
 
-In this project I used Gulp plugin gulp-inline-css for inline CSS properties into the style attribute in an html file.
+This is template of email for subscribers.
+Using gulp-inline-css plugin to inline CSS properties into the style attribute in an html file.
