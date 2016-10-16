@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
-
-    inlineCss = require('gulp-inline-css');
+    inlineCss = require('gulp-inline-css'),
     livereload = require('gulp-livereload'),
-    connect = require('gulp-connect'),
+    connect = require('gulp-connect');
 
     // server connect
     gulp.task('connect', function() {
@@ -27,8 +26,8 @@ var gulp = require('gulp'),
 
     //watch
     gulp.task('watch', function () {
-        gulp.watch('src/css/*.css', ['css'])
-        gulp.watch('src/*.html', ['html'])
+        gulp.watch('src/css/*.css', ['inline'])
+        gulp.watch('src/*.html', ['inline'])
     });
     
     //default

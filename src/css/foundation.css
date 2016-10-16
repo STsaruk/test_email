@@ -74,10 +74,10 @@ table, tr, td {
 @media only screen {
   html {
     min-height: 100%;
-    background: #FFFFFF; } }
+    background: #fafafa; } }
 
 table.body {
-  background: #FFFFFF;
+  background: #fafafa;
   height: 100%;
   width: 100%; }
 
