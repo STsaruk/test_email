@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('inline', function() {
-    return gulp.src('./*.html')
+    return gulp.src('src/*.html')
         .pipe(inlineCss({
             applyStyleTags: true,
             applyLinkTags: true,
