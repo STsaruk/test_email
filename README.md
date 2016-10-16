@@ -6,6 +6,6 @@ npm i --save-dev
 
 Production file is situated in build directory
 
-$About
+#About
 
 In this project I used Gulp plugin gulp-inline-css for inline CSS properties into the style attribute in an html file.
